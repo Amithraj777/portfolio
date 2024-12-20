@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    cursor:pointer;
+    font-size: 40px;
+    font-weight: bold;
+    color:orange;
+    letter-spacing: 1px;
+    cursor:pointer;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding :10px 10px;
+}
+.navlinks{
+    list-style: none;
+}
+a{
+    color:white;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+.navlinks li a{
+    background-color: red;
+    padding:10px 10px;
+    color:black;
+}
+.action{
+    background-color: yellow;
+    color:black;
+    padding:10px 10px;
+}
+.navlinks li:hover{
+    background-color: yellow;
+}
+.action:hover{
+    background-color: orange;
+}
